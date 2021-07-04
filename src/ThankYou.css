@@ -1,0 +1,15 @@
+.ty {
+  text-align: center;
+}
+
+#ty_image {
+  border-left: 0px;
+  height: 400px;
+  width: 650px;
+}
+
+.ty > p {
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 700;
+}

@@ -1,0 +1,73 @@
+.findride > h2{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.findride  > form > input[type=date]{
+    color: #ACAAAA;
+}
+
+.findride  > form > input[type=time]{
+    color: #ACAAAA;
+}
+
+.findride  > form {
+    margin: 0 auto;
+    text-align: center;
+    background: #202020;
+    width: 45%;
+    margin-top: -2%;
+}
+
+.findride  > form > input{
+    margin-top: 8%;
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 5%;
+    border: none;
+    padding-right: 5%;
+}
+
+.findride  > form > input[type=text]:nth-child(1){
+    margin-top: 12%;
+}
+
+.findride > form > input[type=time]{
+    margin-bottom: 12%;
+}
+
+.findride{
+    text-align: center;
+}
+
+.findride > button{
+    margin-top: 4%;
+    margin-bottom: 6%;
+    width: auto;
+    font-size: 15px;
+    background: #FFDF6C;
+    border: 1px solid #FFDF6C;
+    color: #000000;
+    border-radius: 20px;
+    font-weight: 750;
+    padding: 10px 40px;
+}
+
+.findride > button:hover{
+    transform: scale(1.1);
+}
+
+#location{
+    position: absolute;
+    width: 20px;
+    margin-top: 73px;
+    margin-left: -47px;
+}
+
+#dlocation{
+    position: absolute;
+    width: 20px;
+    margin-top: 53px;
+    margin-left: -47px;
+}

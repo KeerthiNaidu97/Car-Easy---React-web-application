@@ -1,0 +1,25 @@
+.myrides > .PreviousRidesContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 8%;
+}
+
+#myridesImage{
+    width: 62%;
+    height: auto;
+}
+
+.myrides > .PreviousRidesContainer > .PreviousRides{
+    width: 34%;
+}
+
+.myrides > .PreviousRidesContainer > .PreviousRides > p{
+    font-size: 20px;
+}
+
+.myrides > .PreviousRidesContainer > .PreviousRides > hr{
+    color: #C4C4C4;
+    border-width: 2px;
+}

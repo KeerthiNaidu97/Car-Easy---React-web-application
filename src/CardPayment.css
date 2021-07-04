@@ -1,0 +1,108 @@
+.main_page {
+  display: flex;
+}
+
+.main_page > .page_image > #p_image {
+    height: auto;
+    width: 55%;
+    margin-left: 15%;
+    margin-bottom: 6%;
+    margin-top: 14.7%;
+}
+
+.main_page > .container {
+  width: 400px;
+  height: 419px;
+  background-color: #202020;
+  margin-right: 10%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  color: white;
+}
+
+.Cno {
+  border: none;
+  width: 350px;
+  border-bottom: solid;
+  border-bottom-color: #ffffff;
+  background-color: #202020;
+  border-bottom-width: 1.5px;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  outline: none;
+}
+
+.exp_date {
+  border: none;
+  border-bottom: solid;
+  border-bottom-color: #ffffff;
+  background-color: #202020;
+  margin-bottom: 10%;
+  width: 350px;
+  outline: none;
+}
+
+.cvv {
+  border: none;
+  background-color: #202020;
+  width: 350px;
+  border-bottom: solid;
+  border-bottom-color: #ffffff;
+  outline: none;
+}
+
+.paybtn:hover {
+  transform: scale(1.1);
+}
+
+#pbtn {
+  background-color: #ffdf6c;
+  border-radius: 20px;
+  border: none;
+  width: 30%;
+  height: 38px;
+  margin-top: 10%;
+  color: black;
+  margin-left: 35%;
+  outline: none;
+  font-size: 15px;
+  font-weight: 750;
+}
+
+#pbtn > a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.container > #lprice {
+  margin-left: 90px;
+}
+
+.price {
+    margin-top: 11%;
+    width: 20%;
+    height: 30px;
+    margin-left: 9%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+.container .div1{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container .div2{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container .div3{
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,68 @@
+.page1 {
+  display: flex;
+}
+
+.page1 > .page1_image > #p1_image {
+  height: 82%;
+  width: 75%;
+  margin-top: 6%;
+
+  margin: bottom 6%;
+}
+
+.page1 > .container1 {
+  width: 484px;
+  height: 335px;
+  background-color: #202020;
+  text-align: center;
+  margin-right: 10%;
+  margin-bottom: 5.5%;
+  margin-top: 5.5%;
+}
+
+.container1 > p {
+  color: #acaaaa;
+  font-size: 25px;
+  margin-top: 5%;
+  font-weight: 700;
+}
+
+.container1 > ul {
+  list-style-type: none;
+  margin-top: 10%;
+}
+
+.container1 > ul > li > button {
+  background-color: #ffdf6c;
+  color: #000000;
+  border-radius: 7px;
+  font-weight: 6px;
+  height: 35px;
+  width: 60%;
+  border: none;
+  margin-right: 35px;
+  font-size: 15px;
+  font-weight: 750;
+}
+
+.container1 > ul > li > .BAcc:hover,
+.Visa:hover,
+.Cash:hover {
+  transform: scale(1.1);
+}
+
+.container1 > ul > hr {
+  margin-left: -40px;
+}
+
+.Visa {
+  margin-bottom: 5%;
+}
+.BAcc {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.Cash {
+  margin-top: 5%;
+}

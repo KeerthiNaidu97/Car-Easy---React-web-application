@@ -1,0 +1,122 @@
+.register {
+    text-align: center;
+  }
+  
+  .register > hr {
+    background-color: #ffdf6c;
+    content: " ";
+    width: 100%;
+    height: 10px;
+    margin-top: 0%;
+  }
+  
+  .register > p {
+    color: #acaaaa;
+    margin-top: 2.5%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .register > .social {
+    padding: 30px;
+    justify-content: space-between;
+    /* margin-top: 2.8%; */
+    margin-bottom: 1%;
+    margin-left: 0.6%;
+  }
+  
+  .register > .social > #Twitter {
+    color: #00acee;
+    height: 3%;
+    width: 3%;
+  }
+  
+  .register > .social > #Facebook {
+    color: #3b5998;
+    height: 3%;
+    width: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .register > .social > #Google {
+    height: 3%;
+    width: 3%;
+  }
+  
+  .register > h5::before,
+  h5::after {
+    content: " ";
+    width: 405px;
+    height: 2px;
+    margin: 0 0;
+    vertical-align: super;
+    background-color: #acaaaa;
+    display: inline-block;
+  }
+  
+  #or {
+    border-radius: 100%;
+    height: 38px;
+    width: 39px;
+    color: #000000;
+    font-weight: 700;
+  }
+  
+  .register > ul > li > #Person {
+    position: absolute;
+    margin-left: 1%;
+    width: 4%;
+    height: 4%;
+    margin-top: 3%;
+  }
+  
+  .register > ul > li > #lock {
+    position: absolute;
+    margin-left: 1%;
+    width: 4.3%;
+    height: 4.3%;
+    margin-top: 3%;
+  }
+  
+  .register > ul {
+    list-style: none;
+  }
+  
+  .register > ul > li > input {
+    border: none;
+    border-bottom: solid;
+    /* border-bottom-width: 1.2px; */
+    border-color: #acaaaa;
+    width: 65%;
+    font-size: 20px;
+    margin-top: 2.8%;
+    margin-right: 45px;
+    outline: none;
+  }
+  
+  .register > ul > li > input[type="text"] {
+    padding-left: 5%;
+  }
+  
+  .register > ul > li > input[type="password"] {
+    padding-left: 5%;
+  }
+  
+  .reg_btn :hover {
+    transform: scale(1.1);
+  }
+  
+  #rbtn {
+    width: auto;
+    font-size: 15px;
+    background: #FFDF6C;
+    border: 1px solid #FFDF6C;
+    color: #000000;
+    border-radius: 20px;
+    font-weight: 750;
+    padding: 10px 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  

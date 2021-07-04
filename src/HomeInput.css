@@ -1,0 +1,30 @@
+.input1{
+    display:flex;
+    flex-direction: row-reverse;
+    border: 1px solid #000;
+    width: 15%;
+    padding: 5px;
+    border-radius: 20px;
+    background: #ffffff;
+    margin-bottom: 3%;
+}
+
+.textInput{
+        border:none;
+}
+
+.textInput:focus {
+    outline:none;
+  }
+
+::placeholder{
+    color:#ACAAAA !important;
+}
+
+.inputs{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background: #202020;
+}
+

@@ -1,0 +1,105 @@
+#root > div > div.home > div.banner{
+    display: flex;
+    background: #202020;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#root > div > div.home > div > .tagline > h1{
+    color:#ffffff;
+    margin-top: 20%;
+}
+
+#root > div > div.home > div > div > h1:nth-child(2){
+    margin-top: -7%;
+    color: #FFDF6C;
+}
+
+#image1{
+    margin-top: 2%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+#root > div > div.home > div > div > button{
+    width: auto;
+    font-size: 15px;
+    background: #202020;
+    border: 1px solid #FFDF6C;
+    color: #FFDF6C;
+    padding: 3% 6%;
+    border-radius: 20px;
+    
+}
+
+#root > div > div.home > div > div > button:hover{
+    transform: scale(1.1);
+}
+
+#root > div > div.home > div.features{
+    background: #ffffff;
+    margin-top: 0;
+}
+
+#root > div > div.home > div.features > h1{
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+#root > div > div > div:nth-child(3) > input[type=date]{
+    width: 198px;
+    height: 35px;
+    color: #ACAAAA;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+
+#root > div > div > div.inputs > button{
+    width: auto;
+    font-size: 15px;
+    background: #FFDF6C;
+    border: 1px solid #FFDF6C;
+    color: #000000;
+    border-radius: 20px;
+    font-weight: 750;
+    padding: 10px 30px;
+    margin-bottom: 3%;
+    margin-right: 15%;
+}
+
+#root > div > div > div.inputs > button:hover{
+    transform: scale(1.1);
+}
+
+
+#root > div > div > div.inputs > div:nth-child(1){
+    margin-left:15%;
+}
+
+.features > .feature-cards > ul > li > img{
+    width: 225px;
+    height: auto;
+    border-radius: 20px;
+    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+} 
+
+.features > .feature-cards > ul > li > img:hover{
+    transform: scale(1.1);
+}
+
+.features > .feature-cards > ul{
+    list-style: none;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    justify-content: space-around;
+}
+
+.features > .feature-cards > ul > li > p{
+    font-weight: 625;
+    font-size: 22px;
+    text-align: center;
+}
+
+

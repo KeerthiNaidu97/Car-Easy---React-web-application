@@ -1,0 +1,90 @@
+.main_page1 {
+  display: flex;
+}
+
+.main_page1 > .page_image > #p_image {
+  height: 80%;
+  width: 80%;
+  margin-top: 6%;
+
+  margin: bottom 6%;
+}
+
+.main_page1 > .container {
+  width: 400px;
+  height: 435px;
+  background-color: #202020;
+  margin-right: 10%;
+  margin-bottom: 6% !important;
+  margin-top: 6% !important;
+  color: white;
+  margin: 0 auto;
+}
+
+.Name {
+  border: none;
+  width: 350px;
+  border-bottom: solid;
+  border-bottom-color: #ffffff;
+  background-color: #202020;
+  border-bottom-width: 1.5px;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  outline: none;
+}
+
+.iban {
+  border: none;
+  border-bottom: solid;
+  border-bottom-color: #ffffff;
+  background-color: #202020;
+  margin-bottom: 10%;
+  width: 350px;
+  outline: none;
+}
+
+.bic {
+  border: none;
+  background-color: #202020;
+  width: 350px;
+  border-bottom: solid;
+  border-bottom-color: #ffffff;
+  outline: none;
+}
+
+.paybtn:hover {
+  transform: scale(1.1);
+}
+
+#pbtn {
+  background-color: #ffdf6c;
+  border-radius: 20px;
+  border: none;
+  width: 30%;
+  height: 38px;
+  margin-top: 10%;
+  color: black;
+  margin-left: 35%;
+  outline: none;
+}
+
+.container > #lprice {
+  margin-left: 90px;
+}
+
+.price {
+  margin-top: 11%;
+  width: 20%;
+  margin-left: 9%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+.main_page1 > div > div:nth-child(n){
+  padding-left: 20px;
+}

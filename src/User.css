@@ -1,0 +1,141 @@
+.user {
+  text-align: center;
+}
+
+.user > .card > #pi {
+  padding-top: 20px;
+}
+
+.user > .card {
+  height: 500px;
+  width: 80%;
+  top: 19.7%;
+  bottom: 20.13%;
+  margin-left: 11%;
+  background: #202020;
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+.user > .card > p {
+  color: #acaaaa;
+  margin-bottom: 4%;
+}
+
+label {
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+#label1 {
+  margin-left: 1rem;
+  list-style: none;
+}
+
+#input1 {
+  list-style: none;
+}
+
+#label2 {
+  margin-left: 8rem;
+  list-style: none;
+}
+
+#input2 {
+  list-style: none;
+}
+
+#fn {
+  border-radius: 20rem;
+  width: 15rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#lfn {
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+#ln {
+  border-radius: 3rem;
+  width: 15rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+#lln {
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+#email {
+  border-radius: 3rem;
+  width: 15rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#lemail {
+  font-size: 1rem;
+  margin-top: 3.5rem;
+}
+
+#gender {
+  border-radius: 3rem;
+  width: 15rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#lgender {
+  font-size: 1rem;
+  margin-top: 3.5rem;
+}
+
+#pno {
+  border-radius: 3rem;
+  width: 15rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#lpno {
+  font-size: 1rem;
+  margin-top: 3.5rem;
+}
+
+#license {
+  border-radius: 3rem;
+  width: 15rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#llicense {
+  font-size: 1rem;
+  margin-top: 3.5rem;
+}
+
+#age {
+  border-radius: 3rem;
+  width: 15rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#lage {
+  font-size: 1rem;
+  margin-top: 3.5rem;
+}
+
+.save_btn > #save {
+  color: black;
+  background-color: #ffdf6c;
+  border: none;
+  border-radius: 30px;
+  height: 40px;
+  width: 140px;
+  margin-top: 2%;
+}
+
+.save_btn:hover {
+  transform: scale(1.1);
+}
